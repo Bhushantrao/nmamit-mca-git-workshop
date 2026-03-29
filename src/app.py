@@ -23,7 +23,7 @@ def add_student(students: list, name: str, branch: str) -> list:
 def list_students(students: list) -> None:
     """Display all students in the directory."""
     if not students:
-        print("No students registered yet.")
+        print("No students registered yet. Please add some!")
         return
 
     print(f"\n{'Name':<20} {'Branch':<15} {'Semester':<10}")
